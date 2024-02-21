@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Qwik + Vite
 
 ## Qwik in CSR mode
@@ -36,3 +37,6 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 ### `npm run build`
 
 Builds the app for production to the `dist` folder.<br>
+=======
+# psykka.github.io
+>>>>>>> 3688cbac80bc3247bffe702ff28d34d20f85bf85
