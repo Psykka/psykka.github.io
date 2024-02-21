@@ -1,0 +1,1 @@
+import{C as l}from"./core.min-NKaoUBCu.js";const r=()=>l("div",null,{class:"sidebar-itens text-sm"},[l("a",null,{href:"/"},"EN",3,null),l("a",null,{href:"/"},"PT-BR",3,null)],3,"BZ_0");export{r as s_0jq6nwqI2nI};

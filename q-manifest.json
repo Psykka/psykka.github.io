@@ -1,0 +1,294 @@
+{
+  "manifestHash": "c1w77j",
+  "symbols": {
+    "s_0jq6nwqI2nI": {
+      "origin": "components/navbar/Language.jsx",
+      "displayName": "Language_component",
+      "canonicalFilename": "s_0jq6nwqi2ni",
+      "hash": "0jq6nwqI2nI",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        83,
+        239
+      ]
+    },
+    "s_Ijj4b0lATms": {
+      "origin": "components/navbar/SideBar.jsx",
+      "displayName": "SideBar_component",
+      "canonicalFilename": "s_ijj4b0latms",
+      "hash": "Ijj4b0lATms",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        186,
+        653
+      ]
+    },
+    "s_Q5MZp0oM17c": {
+      "origin": "components/navbar/Social.jsx",
+      "displayName": "Social_component",
+      "canonicalFilename": "s_q5mzp0om17c",
+      "hash": "Q5MZp0oM17c",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        81,
+        256
+      ]
+    },
+    "s_krJEijyZ8RY": {
+      "origin": "components/navbar/Links.jsx",
+      "displayName": "Links_component",
+      "canonicalFilename": "s_krjeijyz8ry",
+      "hash": "krJEijyZ8RY",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        80,
+        662
+      ]
+    },
+    "s_vBdtONNNfT0": {
+      "origin": "app.jsx",
+      "displayName": "App_component",
+      "canonicalFilename": "s_vbdtonnnft0",
+      "hash": "vBdtONNNfT0",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "loc": [
+        192,
+        560
+      ]
+    }
+  },
+  "mapping": {
+    "s_0jq6nwqI2nI": "entry_Language-S6Czbgnz.js",
+    "s_Ijj4b0lATms": "entry_SideBar-cZFUmz_W.js",
+    "s_Q5MZp0oM17c": "entry_Social-OMXXT9S7.js",
+    "s_krJEijyZ8RY": "entry_Links-Xd9ZImw9.js",
+    "s_vBdtONNNfT0": "entry_App-WKCJa0TY.js"
+  },
+  "bundles": {
+    "core.min-NKaoUBCu.js": {
+      "size": 43797,
+      "origins": [
+        "node_modules/@builder.io/qwik/core.min.mjs"
+      ]
+    },
+    "entry_App-WKCJa0TY.js": {
+      "size": 1077,
+      "imports": [
+        "core.min-NKaoUBCu.js"
+      ],
+      "dynamicImports": [
+        "entry_SideBar-cZFUmz_W.js"
+      ],
+      "origins": [
+        "src/components/navbar/SideBar.jsx",
+        "src/entry_App.js",
+        "src/locales/en-US.json",
+        "src/s_vbdtonnnft0.js"
+      ],
+      "symbols": [
+        "s_vBdtONNNfT0"
+      ]
+    },
+    "entry_Language-S6Czbgnz.js": {
+      "size": 213,
+      "imports": [
+        "core.min-NKaoUBCu.js"
+      ],
+      "origins": [
+        "src/entry_Language.js",
+        "src/s_0jq6nwqi2ni.js"
+      ],
+      "symbols": [
+        "s_0jq6nwqI2nI"
+      ]
+    },
+    "entry_Links-Xd9ZImw9.js": {
+      "size": 591,
+      "imports": [
+        "core.min-NKaoUBCu.js"
+      ],
+      "origins": [
+        "src/entry_Links.js",
+        "src/s_krjeijyz8ry.js"
+      ],
+      "symbols": [
+        "s_krJEijyZ8RY"
+      ]
+    },
+    "entry_SideBar-cZFUmz_W.js": {
+      "size": 1105,
+      "imports": [
+        "core.min-NKaoUBCu.js"
+      ],
+      "dynamicImports": [
+        "entry_Language-S6Czbgnz.js",
+        "entry_Links-Xd9ZImw9.js",
+        "entry_Social-OMXXT9S7.js"
+      ],
+      "origins": [
+        "src/components/navbar/Language.jsx",
+        "src/components/navbar/Links.jsx",
+        "src/components/navbar/Social.jsx",
+        "src/entry_SideBar.js",
+        "src/s_ijj4b0latms.js"
+      ],
+      "symbols": [
+        "s_Ijj4b0lATms"
+      ]
+    },
+    "entry_Social-OMXXT9S7.js": {
+      "size": 214,
+      "imports": [
+        "core.min-NKaoUBCu.js"
+      ],
+      "origins": [
+        "src/entry_Social.js",
+        "src/s_q5mzp0om17c.js"
+      ],
+      "symbols": [
+        "s_Q5MZp0oM17c"
+      ]
+    },
+    "index-MLkFoMmR.js": {
+      "size": 2493,
+      "imports": [
+        "core.min-NKaoUBCu.js"
+      ],
+      "dynamicImports": [
+        "entry_App-WKCJa0TY.js"
+      ],
+      "origins": [
+        "index.html",
+        "node_modules/@builder.io/qwik/qwikloader.js",
+        "src/app.css",
+        "src/app.jsx",
+        "src/index.css",
+        "src/main.jsx"
+      ]
+    }
+  },
+  "injections": [
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-v4compatibility-swPskV3q.ttf",
+        "as": "font",
+        "type": "font/ttf",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-solid-900-Sy0MuDJS.ttf",
+        "as": "font",
+        "type": "font/ttf",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-regular-400-R1y4wXhx.ttf",
+        "as": "font",
+        "type": "font/ttf",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-brands-400-4fTc_gEW.ttf",
+        "as": "font",
+        "type": "font/ttf",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-v4compatibility-EGpkxffn.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-solid-900-zzuwGR1u.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-regular-400-dMPsq6FL.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/fa-brands-400-dBtdVLXb.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "stylesheet",
+        "href": "/assets/index-MgFVmoCH.css"
+      }
+    }
+  ],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "smart"
+    }
+  },
+  "platform": {
+    "qwik": "1.2.18",
+    "vite": "",
+    "rollup": "4.5.0",
+    "env": "node",
+    "os": "linux",
+    "node": "20.11.0"
+  }
+}
