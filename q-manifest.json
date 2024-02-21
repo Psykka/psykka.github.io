@@ -1,5 +1,5 @@
 {
-  "manifestHash": "9rv7z5",
+  "manifestHash": "hhgwnz",
   "symbols": {
     "s_0jq6nwqI2nI": {
       "origin": "components/navbar/Language.jsx",
@@ -238,7 +238,7 @@
       "location": "head",
       "attributes": {
         "rel": "preload",
-        "href": "/assets/fa-regular-400-dMPsq6FL.woff2",
+        "href": "/assets/fa-solid-900-zzuwGR1u.woff2",
         "as": "font",
         "type": "font/woff2",
         "crossorigin": ""
@@ -249,7 +249,7 @@
       "location": "head",
       "attributes": {
         "rel": "preload",
-        "href": "/assets/fa-solid-900-zzuwGR1u.woff2",
+        "href": "/assets/fa-regular-400-dMPsq6FL.woff2",
         "as": "font",
         "type": "font/woff2",
         "crossorigin": ""
@@ -289,6 +289,6 @@
     "rollup": "4.5.0",
     "env": "node",
     "os": "linux",
-    "node": "20.11.1"
+    "node": "20.11.0"
   }
 }
